@@ -1,0 +1,229 @@
+body{
+    max-width: 1280px;
+    margin: auto;
+    font-family: 'Poppins', sans-serif;
+    color: #f0f0f0;
+    background-color:#000000;
+
+}
+main{
+    margin-top: 1%;
+    
+
+}
+footer{
+    display: flex;
+    margin: 3px;
+    flex: 1 1 100vw;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+h2{
+    color: #07eff7;
+}
+h3{
+    color: #ffffff;
+}
+a{
+    text-decoration: none;
+    color: #07eff7;
+}
+
+
+.col01{
+    width: 40%;
+    height: 600px;
+    float: left;
+    padding-left: 5%;
+    font-family: 'Share Tech Mono', monospace;
+    color: #07eff7;
+
+}
+
+.col02{
+    width: 25%;
+    height: 600px;
+    float: left;
+    
+}
+.col03{
+    width: 25%;
+    height: 600px;
+    float: left;
+    }
+.sobre-mim{
+    display: table;
+}
+.meus-projetos{
+  display: table; 
+  
+}
+.contato{
+    
+}
+
+.info-contato{
+   text-align: center;
+}
+.foto-perfil{
+    width: 80%;
+    margin: 5% 5% 5% 25%;
+}
+
+.icone:hover{
+    transform: scale(1.2);
+}
+.botao-menu:hover{
+    transform: scale(1.1);
+}
+
+.menu-lateral ul,li {
+    display: flex;
+    margin-left: 25%;
+    flex-direction: column;
+    gap: 15px;
+    text-decoration: none;
+    
+}
+.menu-lateral {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+}
+
+.botao-menu{
+    width: 150px;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #ffffff;
+    border-bottom: none;
+    border-radius: 5px;
+    margin: 10px;
+    box-shadow: 3px 3px #07eff7;
+    border: none;
+    color:#000000;
+    font-size: 21px;
+    }
+
+.destaque {
+    border-radius: 10px;
+    background-color:  hsla(0, 0%, 33%, 0.329);
+    text-align: center;
+    
+} 
+
+.cartao-projetos {
+  
+        width: 20%;
+        height: 450px;
+        float: left;
+        flex-wrap: wrap;
+        border-radius: 5px;
+        padding-left: 2%;
+        padding-right: 2%;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-top: 10px;
+        color: #f0f0f0;
+        border: solid 1px hsla(0, 0%, 33%, 0.692);
+       
+    }
+
+    .listagem-projetos{
+        width: 100%;
+        height: 15%;
+        border-radius: 5px;
+        text-align: center;
+        padding-top: 3px;
+        margin-top: 3%;
+        font-size: 15px;
+        background-color: hsla(0, 0%, 33%, 0.329);
+        box-shadow: 1px 1px 1px 1px #07f7cf;
+        margin-bottom: 5px;
+    
+    }
+
+    .screenshot {
+        width: 100%;
+        height: 30%;
+        border-radius: 5px;
+        justify-content:center;
+        align-items: center;
+        box-shadow: 2px 2px  hsla(0, 0%, 33%, 0.692);
+    }
+
+    .formulario{
+        display: table;
+        padding: 40px;
+        width: 30%;
+        
+        margin: auto;
+        background-color: rgb(255,255,255,255);
+        border-radius:8px;
+        border-color: hsl(249, 10%, 26%) ;
+        color: hsl(249, 10%, 26%) ;
+        margin-top:20px;
+        box-shadow: 4px 4px 8px hsla(170, 94%, 50%, 0.37) ;
+        
+    }
+    .grid{
+        display: table;
+        width: 350px;
+        height: 56px;
+        border-radius: 8px;
+        border-color:hsl(249, 10%, 26%) ;
+        
+    }
+    .botao{
+        width: 80px;
+        border-radius: 5px;
+        border: none;
+        color:rgb(255,255,255,255);
+        background-color:  #07eff7;
+        font-size: 18px;
+              
+    }
+    .nome{
+        border: solid 1px;
+        border-radius: 5px;
+        color: #07eff7;
+        font-size: 12px;
+        background-color: #000000;
+       
+    }
+.descricao{
+    text-align: justify;
+} 
+.icone {
+
+    width: 32px;
+    filter: invert(1);
+    transition: 0.3s ease-in-out;
+    filter: invert(1);
+    transition: 0.3s ease-in-out;
+    padding: 5px;
+    margin: 5px;
+}
+.icone:hover{
+    transform: scale(1.2);
+}   
+
+
+@media all and (max-width:768px){
+    #menu{
+        visibility: hidden;
+    }
+    .col01, .col03, .col04, .sobre-mim, .meus-projetos, .contato{
+        display: block;
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+    }
