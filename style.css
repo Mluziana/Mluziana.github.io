@@ -2,8 +2,8 @@ body{
     max-width: 1280px;
     margin: auto;
     font-family: 'Poppins', sans-serif;
-    color: #f0f0f0;
-    background-color:#1a1a1a;
+    color: #000;
+    background-color:fff;
 
 }
 main{
@@ -52,7 +52,7 @@ a{
     display: table;
     margin-top: 5%;
     padding-hight: 15%;
-    padding-left: 5%;
+    padding-left: 15%;
     
 }
 .meus-projetos{
